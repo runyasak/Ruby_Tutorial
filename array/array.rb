@@ -19,6 +19,9 @@ array_4.push(100, 200)
 array_4.pop
 
 array_4.concat([10, 20, 30])
+array_4.each do |value|
+	puts value
+end
 
 puts "Array Size : " + array_4.size().to_s
 
